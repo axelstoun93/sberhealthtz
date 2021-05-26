@@ -33,5 +33,4 @@ php artisan queue:work
     <br/>
     "data": {...}
     <br/>
-    <br/>
 }
