@@ -22,7 +22,7 @@ class ArticleServiceTest extends TestCase
      *
      * @return void
      */
-    public function test_count_day()
+    public function testCountDay()
     {
         $createArticle = $this->articleService->countDayArticle('user');
         $this->assertIsInt($createArticle);
