@@ -17,6 +17,8 @@ class ArticleController extends Controller
 
 
     /**
+     * Добавим пагинацию если это статьи,
+     * то будет не совсем корректно выкидывать сразу все что есть в базе данных
      * @param Request $request
      * @return JsonResponse
      */
