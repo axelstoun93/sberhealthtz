@@ -1,6 +1,5 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::group(['namespace' => 'App\Http\Controllers\Api'], function () {
+    Route::post('article/save', 'ArticleController@store');
+    Route::get('article/list', 'ArticleController@index');
 });
+
