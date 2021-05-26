@@ -14,7 +14,7 @@ class ArticleTest extends TestCase
      *
      * @return void
      */
-    public function test_create_request_json()
+    public function testCreateRequestJson()
     {
         $testArticle = [
           'title' => 'test',
