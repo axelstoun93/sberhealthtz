@@ -13,6 +13,8 @@ class ArticleSaveTextMail extends Mailable implements ShouldQueue
 
     private $usd;
 
+    public $subject = 'Article Notification';
+
     /**
      * Create a new message instance.
      *
