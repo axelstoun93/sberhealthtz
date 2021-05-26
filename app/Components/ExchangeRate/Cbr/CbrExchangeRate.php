@@ -17,7 +17,7 @@ class CbrExchangeRate implements ExchangeRate
     /**
      * @var string
      */
-    private static $url = 'http://www.csabr.ru/scripts/XML_daily.asp';
+    private static $url = 'http://www.cbr.ru/scripts/XML_daily.asp';
 
     /**
      * @param $url
