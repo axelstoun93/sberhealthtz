@@ -4,10 +4,11 @@ namespace Tests\Feature\Article;
 
 use App\Models\Article;
 use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class ArticleTest extends TestCase
 {
-    //use RefreshDatabase;
+    use RefreshDatabase;
 
     /**
      * Создаем статью через api
